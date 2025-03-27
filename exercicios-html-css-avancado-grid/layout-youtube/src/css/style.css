@@ -1,0 +1,71 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto minmax(270px, 380px);
+    height: calc(100vh - 57px);
+    background-color: #f7f7f7;
+    padding: 38px 35px 19px;
+    gap: 17px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.principal .info h1 {
+    font-size: 18px;
+    padding-bottom: 7px;
+}
+
+.principal .info .visualizacoes {
+    font-size: 14px;
+}
+
+.principal .info p {
+    font-size: 16px;
+    padding-top: 9px;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aside .propaganda {
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 55px;
+}
+
+.aside .videos-propostos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aside .video a{
+    display: flex;
+    gap: 4px;
+}
+
+.aside .video a h2 {
+    padding-bottom: 2px;
+}
+
+.aside .video a > .info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.aside .video .info h2 {
+    font-size: 14px;
+}
