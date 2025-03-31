@@ -1,0 +1,108 @@
+body {   
+    font-family: "Roboto", sans-serif;
+
+    & .background1 {
+        background: url(../images/background1.svg) no-repeat center;
+    }
+    & .background2 {
+        background: url(../images/background2.svg) no-repeat center;
+    }
+
+    & .background3 {
+        background: url(../images/background3.svg) no-repeat center;
+    }
+    
+    & .background4 {
+        background: url(../images/background4.svg) no-repeat center;
+    }
+
+    & .arrow {
+        background: url(../images/white-arrow.svg) no-repeat center;
+        background-size: contain;
+        min-width: 3rem;
+        height: 4.87rem;
+        border: none;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    & .arrow.btn-back {
+        transform: rotateY(180deg);
+    }
+
+    & .opacity {
+        opacity: .6;
+        cursor: auto;
+    }
+    
+    & .main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        padding: 0 4.37rem;
+        position: relative;
+    
+        & .slider-container {
+            display: none;
+            background-size: cover;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+
+            & .slider {
+                background-color: #ffffff;
+                width: 38.75rem;
+                height: 43.75;
+                padding: 4rem 3.75rem;
+                margin-left: 11.25rem;
+                border-radius: .62rem;
+
+                & .title {
+                    padding-bottom: 5rem;
+                    font-size: 3.12rem;
+                    font-weight: 400;
+                }
+
+                & .text {
+                    font-size: 1.56rem;
+                    font-weight: 300;
+                    line-height: 2.18rem;
+                    padding-bottom: 3.12rem;
+                }
+
+                & .find-out-more {
+                    font-size: 1.87rem;
+                    font-weight: 700;
+                }
+
+                & .red-color {
+                    color: #C50000;
+
+                }
+
+                & .yellow-color {
+                    color: #D9DD10;
+
+                }
+
+                & .brown-color {
+                    color: #A63A17;
+
+                }
+
+                & .blue-color {
+                    color: #10ACDD;
+                    ;
+                }
+            }
+        }
+
+        & .slider-container.active {
+            display: flex;
+        }
+    }
+}
+

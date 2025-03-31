@@ -1,0 +1,9 @@
+.container-cadastro {
+    border: 1px solid #c4c4c4;
+    max-width: fit-content;
+    padding: 0 1rem 1rem;
+}
+
+.campo-preenchido {
+    border: 1px solid green;
+}
